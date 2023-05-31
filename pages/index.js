@@ -107,10 +107,11 @@ export default function Home() {
             </div>
 
 
-            <div className="bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center">
-  <Image src={deved} layout="fill" objectFit="cover" alt="TheNerd" />
+            <div className="bg-gradient-to-b from-teal-300 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center">
+  <div className="flex justify-center items-center">
+    <Image src={deved} layout="fill" objectFit="cover" alt="TheNerd" />
+  </div>
 </div>
-
           </div>
         </section>
         <section>
