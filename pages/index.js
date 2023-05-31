@@ -171,9 +171,9 @@ export default function Home() {
               <p className="py-2">
                 Creating elegant UI/UX designs for both web and desktop applications suited for your needs following core design theory.
               </p>
-              <div>
+              <div className="text-center">
                 <h4 className="py-4 text-teal-600">Tools Used</h4>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap justify-center gap-2">
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Photoshop</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Illustrator</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Figma</span>
@@ -192,9 +192,9 @@ export default function Home() {
                 Do you have an idea for your next great web, desktop or a console application? Let's make it a
                 reality.
               </p>
-              <div>
+              <div className="text-center">
                 <h4 className="py-4 text-teal-600">Technologies</h4>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap justify-center gap-2">
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Java</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">JavaScript</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Python</span>
@@ -213,9 +213,9 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <div>
-                <h4 className="py-4 text-teal-600">Platforms</h4>
-                <div className="flex flex-wrap gap-2">
+              <div className="text-center">
+                  <h4 className="py-4 text-teal-600">Platforms</h4>
+                  <div className="flex flex-wrap justify-center gap-2">
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Zoom</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Google Meet</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Anydesk</span>
@@ -313,7 +313,7 @@ export default function Home() {
         </section>       
          
         <section className="py-10">
-          <div>
+          <div >
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
