@@ -151,10 +151,7 @@ export default function Home() {
             <div className="flex items-center sm:mr-6">
               <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
             </div>
-
-         
-
-
+          </div>
          </div> 
         </section>
         <section>
