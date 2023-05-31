@@ -151,15 +151,7 @@ export default function Home() {
             <div className="flex items-center sm:mr-6">
               <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
             </div>
-//           <div className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-//               <a href="#">
-//                 <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
-//               </a>
-// //               <div className="absolute px-4 text-lg text-white bottom-6">
-// //                 <p>TheNerd!</p>
-// //               </div>
 
-//             </div>
           </div>
 
 
