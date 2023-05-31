@@ -147,12 +147,15 @@ export default function Home() {
 
 //             </div>
 
-          <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center drop-shadow-2xl">
+         <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center drop-shadow-2xl">
             <div className="flex items-center sm:mr-6">
               <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
             </div>
           </div>
-         </div> 
+
+
+
+         </div>  
         </section>
         <section>
           <div>
