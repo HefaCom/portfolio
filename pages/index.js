@@ -45,6 +45,8 @@ export default function Home() {
       </Head>
 
     <main className="bg-white px-4 sm:px-6 md:px-8 lg:px-10 dark:bg-gray-900">
+       <div className="container mx-auto">
+    <div className="w-full">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
@@ -428,7 +430,8 @@ export default function Home() {
     </div>
 </footer>
 
-
+</div>
+</div>
       </main>
     </div>
   );
