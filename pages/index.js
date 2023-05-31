@@ -79,7 +79,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               Freelancer providing  web development, desktop application outstanding Data analysis srvices. Hire me today and let's get it cracking! 
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 sm:gap-8">
+            <div className="text-5xl flex justify-center  py-3 text-gray-600 dark:text-gray-400 sm:gap-8">
             <a href="https://www.twitter.com/_hezron__" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
             </a>
