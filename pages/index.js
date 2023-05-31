@@ -44,7 +44,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <main className="bg-white px-20 sm:px-6 md:px-8 lg:px-40 dark:bg-gray-900">
+    <main className="bg-white px-2 sm:px-2 md:px-8 lg:px-40 dark:bg-gray-900">
        <div className="container mx-auto">
     <div className="w-full">
         <section className="min-h-screen">
