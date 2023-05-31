@@ -200,8 +200,9 @@ export default function Home() {
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Python</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">C#</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">C++ and C</span>
+                 <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">PHP</span>
                   <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">ReactJS, ViteJs & NextJS</span>
-                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">PHP</span>
+                 
                 </div>
               </div>
 
