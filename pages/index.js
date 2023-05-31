@@ -4,6 +4,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillYoutube,
+  AiFillGithub
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState,useEffect } from "react";
@@ -81,6 +82,9 @@ export default function Home() {
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.twitter.com/_hezron__" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.github.com/HefaCom" target="_blank" rel="noopener noreferrer">
+              <AiFillGithub />
             </a>
               <a href="https://www.linkedin.com/in/hezron-okoko"target="_blank"  rel="noopener noreferrer"><AiFillLinkedin /></a>
               <a href="https://www.clone.nerdexperts.online"target="_blank"  rel="noopener noreferrer"><AiFillYoutube /></a>
