@@ -44,7 +44,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-white px-10 dark:bg-gray-900  lg:px-40 ">
+      <main className=" bg-white px-10 dark:bg-gray-900  lg:px-40 w-16 md:w-32 lg:w-48">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
