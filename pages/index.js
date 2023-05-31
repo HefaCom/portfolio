@@ -53,7 +53,7 @@ export default function Home() {
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-ping">TheNerd</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
             </a>
             <ul className="flex items-center">
               <li>
@@ -73,7 +73,7 @@ export default function Home() {
             Hezron Okoko
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-            Your ultimate <span className="text-3xl text-red-400 dark:text-blue" >{texts[currentIndex]} !</span>
+            Your ultimate <span className="text-3xl text-red-400 dark:text-blue" >{texts[currentIndex]} !</span><span class="animate-[wave_5s_ease-in-out_2]">👋🏻</span>
                
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
