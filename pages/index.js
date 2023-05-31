@@ -152,7 +152,7 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great web or desktop application? Let's make it a
+                Do you have an idea for your next great web, desktop or a console application? Let's make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-600">Technologies</h4>
