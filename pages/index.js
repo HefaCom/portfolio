@@ -152,7 +152,7 @@ export default function Home() {
               <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
             </div>
 
-          </div>
+         
 
 
          </div> 
