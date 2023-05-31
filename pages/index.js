@@ -136,14 +136,15 @@ export default function Home() {
                 </a>
              </div>
             </div>
-<figure class="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+<div className="relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
   <a href="#">
-    <img class="rounded-lg" src={deved} alt="image description">
+    <Image className="rounded-lg" src={deved} alt="image description" />
   </a>
-  <figcaption class="absolute px-4 text-lg text-white bottom-6">
-      <p>TheNerd!</p>
-  </figcaption>
-</figure>
+  <div className="absolute px-4 text-lg text-white bottom-6">
+    <p>TheNerd!</p>
+  </div>
+</div>
+
 
 // <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center drop-shadow-2xl">
 //   <div className="flex items-center sm:mr-6">
@@ -152,7 +153,7 @@ export default function Home() {
 // </div>
 
 
-          </div>
+//           </div>
         </section>
         <section>
           <div>
