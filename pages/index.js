@@ -79,15 +79,41 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               Freelancer providing  web development, desktop application outstanding Data analysis srvices. Hire me today and let's get it cracking! 
             </p>
-            <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400 ">
-            <a href="https://www.twitter.com/_hezron__" target="_blank" rel="noopener noreferrer">
-              <AiFillTwitterCircle />
-            </a>
-            <a href="https://www.github.com/HefaCom" target="_blank" rel="noopener noreferrer">
-              <AiFillGithub />
-            </a>
-              <a href="https://www.linkedin.com/in/hezron-okoko"target="_blank"  rel="noopener noreferrer"><AiFillLinkedin /></a>
-              <a href="https://www.clone.nerdexperts.online"target="_blank"  rel="noopener noreferrer"><AiFillYoutube /></a>
+            <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
+                <a
+                  href="https://www.twitter.com/_hezron__"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-300"
+                >
+                  <AiFillTwitterCircle />
+                </a>
+                <a
+                  href="https://www.github.com/HefaCom"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-300 hover:text-gray-800 dark:hover:text-gray-300"
+                >
+                  <AiFillGithub />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/hezron-okoko"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400"
+                >
+                  <AiFillLinkedin />
+                </a>
+                <a
+                  href="https://www.clone.nerdexperts.online"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-300 hover:text-red-600 dark:hover:text-red-400"
+                >
+                  <AiFillYoutube />
+                </a>
+           </div>
+
               
               
             </div>
