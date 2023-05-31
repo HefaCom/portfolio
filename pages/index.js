@@ -22,7 +22,7 @@ import me from "../public/avatar.png";
 const currYear = new Date().getFullYear();
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const texts = ['Application Developer', 'Data Analyst', 'Web Developer','Database Designer','Tech Consultant']; // Array of texts to swap
+  const texts = ['Application Developer', 'Data Analyst','Statistician', 'Web Developer','Database Designer','Tech Consultant','Technical Writer']; // Array of texts to swap
 
     useEffect(() => {
     const interval = setInterval(() => {
