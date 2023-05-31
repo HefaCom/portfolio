@@ -105,7 +105,7 @@ export default function Home() {
                   <AiFillLinkedin />
                 </a>
                 <a
-                  href="https://www.clone.nerdexperts.online"
+                  href="https://clone.nerdexperts.online/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-red-600 dark:hover:text-red-400 animate-fade-in"
