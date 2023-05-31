@@ -263,8 +263,37 @@ export default function Home() {
                   </div>
               </li>
           </ol>
-
+      
         </section>
+         <section className="">
+        <h3 className="text-3xl py-1 dark:text-white ">Personal Accomplishments</h3>
+          
+          <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
+              <li class="mb-10 ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February 2017</time>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Started my tech journey</h3>
+                  <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">I embarked on my tech journey in 2017. Starting as an application developer, I honed my coding skills and created desktop and web apps, productivity tools, and custom CRM systems. Intrigued by data, I transitioned to data analysis, uncovering insights to drive strategic decisions. Venturing into web development, I built responsive websites and implemented e-commerce solutions. I also excelled in database design, optimizing performance and ensuring data integrity. As a tech consultant, I guided businesses in making informed technology choices, while my technical writing skills empowered users. Join me as I share my accomplishments and passion for technology!</p>
+                
+                  <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Learn more <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+              </li>
+              <li class="mb-10 ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March 2018</time>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Started fleelance journey</h3>
+                  <p class="text-base font-normal text-gray-500 dark:text-gray-400"> I began my freelance journey in 2018. With expertise in application development, data analysis, web development, database design, tech consulting, and technical writing, I offer comprehensive solutions to clients. From creating mobile apps to analyzing data and building websites, I bring value and flexibility to every project. Join me as I share my freelance successes and the satisfaction of working independently in the dynamic world of technology.</p>
+              </li>
+              <li class="ml-4">
+                  <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 2019.</time>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Founded "NerdExperts" </h3>
+                  <p class="text-base font-normal text-gray-500 dark:text-gray-400"> With my team, we founded NerdExperts, a leading platform for comprehensive tech services. Our team of skilled professionals excels in application development, data analysis, web development, database design, tech consulting, and technical writing. Join us as we deliver innovative solutions to drive growth and success in the ever-changing tech landscape. Contact NerdExperts today for expert assistance with your tech needs.</p>
+                <a href="https://nerdexperts.online" target="_blank"rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Visit Our Site <svg class="w-3 h-3 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a>
+              </li>
+          </ol>
+
+        </section>       
+         
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
