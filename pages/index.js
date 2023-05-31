@@ -139,7 +139,7 @@ export default function Home() {
 
             </div>  
          
-            <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:flex md:items-center md:justify-center justify-center drop-shadow-2xl relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+            <div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden  my-5 md:h-80 md:w-80 md:flex md:items-center md:justify-center justify-center drop-shadow-2xl relative max-w-sm transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
               <div className="flex items-center justify-center">
                 <Image src={deved} layout="fill" objectFit="cover" alt="TheNerd" />
                 <div className="absolute px-4 text-lg text-white bottom-6">
