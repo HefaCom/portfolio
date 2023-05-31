@@ -267,7 +267,7 @@ export default function Home() {
         </section>
          <section className="">
                   
-        <h3 className="text-3xl py-1 dark:text-white ">Personal Accomplishments</h3>
+        <h3 className="text-3xl py-2 dark:text-white ">Personal Accomplishments</h3>
           
           <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
               <li class="mb-10 ml-4">
