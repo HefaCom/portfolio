@@ -80,7 +80,7 @@ export default function Home() {
             <a href="https://www.twitter.com/_hezron__" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
             </a>
-              <a href="https://www.linkedin.com/hezron-okoko"target="_blank"  rel="noopener noreferrer"><AiFillLinkedin /></a>
+              <a href="https://www.linkedin.com/in/hezron-okoko"target="_blank"  rel="noopener noreferrer"><AiFillLinkedin /></a>
               <a href="https://www.clone.nerdexperts.online"target="_blank"  rel="noopener noreferrer"><AiFillYoutube /></a>
               
               
