@@ -155,9 +155,9 @@ export default function Home() {
               <a href="#">
                 <Image src={deved} layout="fill" objectFit="cover"className="" alt="TheNerd" />
               </a>
-              <div className="absolute px-4 text-lg text-white bottom-6">
-                <p>TheNerd!</p>
-              </div>
+//               <div className="absolute px-4 text-lg text-white bottom-6">
+//                 <p>TheNerd!</p>
+//               </div>
 
             </div>
           </div>
