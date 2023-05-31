@@ -46,7 +46,7 @@ export default function Home() {
 
     <main className="bg-white px-2 sm:px-2 md:px-8 lg:px-40 dark:bg-gray-900">
        <div className="container mx-auto">
-    <div className="w-full">
+    <div className="w-full ">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
 
 
-<div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center">
+<div className="mx-auto bg-gradient-to-b from-teal-300 rounded-lg w-80 h-80 relative overflow-hidden mt-20 md:h-80 md:w-80 md:items-center md:justify-center flex justify-center drop-shadow-2xl">
   <div className="flex items-center">
     <Image src={deved} layout="fill" objectFit="cover"className="mr-6" alt="TheNerd" />
   </div>
