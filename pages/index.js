@@ -78,7 +78,7 @@ export default function Home() {
                
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
-              Freelancer providing  web development, desktop application and outstanding Data analysis srvices. Hire me today and let's get it cracking! 
+              Freelancer providing  web development, desktop application and outstanding Data analysis & visualization services. Hire me today and let's get it cracking! 
             </p>
             <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
                 <a
