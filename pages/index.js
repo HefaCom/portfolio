@@ -171,11 +171,11 @@ export default function Home() {
               <p className="py-2">
                 Creating elegant UI/UX designs for both web and desktop applications suited for your needs following core design theory.
               </p>
-              <h4 className="py-4 text-teal-600">Tools Used</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <div>
+                <h4 className="py-4 text-teal-600">Tools Used</h4>
+                <p className="text-gray-800">Photoshop, Illustrator, Figma, Indesign</p>
+              </div>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="TheNerd"/>
