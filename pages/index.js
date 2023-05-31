@@ -157,8 +157,10 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Technologies</h4>
               <p className="text-gray-800 py-1">Java</p>
+                <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">C#</p>
+                <p className="text-gray-800 py-1">C++ and C</p>
               <p className="text-gray-800 py-1">ReactJS</p>
               <p className="text-gray-800 py-1">PHP</p>
             </div>
