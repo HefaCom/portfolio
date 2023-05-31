@@ -173,8 +173,14 @@ export default function Home() {
               </p>
               <div>
                 <h4 className="py-4 text-teal-600">Tools Used</h4>
-                <p className="text-gray-800">Photoshop, Illustrator, Figma, Indesign</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Photoshop</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Illustrator</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Figma</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Indesign</span>
+                </div>
               </div>
+
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -186,14 +192,19 @@ export default function Home() {
                 Do you have an idea for your next great web, desktop or a console application? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Technologies</h4>
-              <p className="text-gray-800 py-1">Java</p>
-                <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">Python</p>
-              <p className="text-gray-800 py-1">C#</p>
-                <p className="text-gray-800 py-1">C++ and C</p>
-              <p className="text-gray-800 py-1">ReactJS</p>
-              <p className="text-gray-800 py-1">PHP</p>
+              <div>
+                <h4 className="py-4 text-teal-600">Technologies</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Java</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">JavaScript</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Python</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">C#</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">C++ and C</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">ReactJS</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">PHP</span>
+                </div>
+              </div>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="TheNerd"/>
@@ -202,11 +213,16 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Platforms</h4>
-              <p className="text-gray-800 py-1">Zoom</p>
-              <p className="text-gray-800 py-1">Google meet</p>
-              <p className="text-gray-800 py-1">Anydesk</p>
-              <p className="text-gray-800 py-1">Remote</p>
+              <div>
+                <h4 className="py-4 text-teal-600">Platforms</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Zoom</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Google Meet</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Anydesk</span>
+                  <span className="inline-block px-3 py-1 bg-gray-200 text-gray-800 rounded-lg animate-pulse">Remote</span>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
