@@ -143,6 +143,7 @@ export default function Home() {
               <div className="absolute px-4 text-lg text-white bottom-6">
                 <p>TheNerd!</p>
               </div>
+
             </div>
 
 
