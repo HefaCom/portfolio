@@ -84,7 +84,7 @@ export default function Home() {
                   href="https://www.twitter.com/_hezron__"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-300"
+                  className="transition-colors duration-300 hover:text-blue-500 dark:hover:text-blue-300 animate-fade-in"
                 >
                   <AiFillTwitterCircle />
                 </a>
@@ -92,7 +92,7 @@ export default function Home() {
                   href="https://www.github.com/HefaCom"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors duration-300 hover:text-gray-800 dark:hover:text-gray-300"
+                  className="transition-colors duration-300 hover:text-gray-800 dark:hover:text-gray-300 animate-fade-in"
                 >
                   <AiFillGithub />
                 </a>
@@ -100,7 +100,7 @@ export default function Home() {
                   href="https://www.linkedin.com/in/hezron-okoko"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400"
+                  className="transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400 animate-fade-in"
                 >
                   <AiFillLinkedin />
                 </a>
@@ -108,11 +108,12 @@ export default function Home() {
                   href="https://www.clone.nerdexperts.online"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-colors duration-300 hover:text-red-600 dark:hover:text-red-400"
+                  className="transition-colors duration-300 hover:text-red-600 dark:hover:text-red-400 animate-fade-in"
                 >
                   <AiFillYoutube />
                 </a>
-           </div>
+              </div>
+
 
               
               
@@ -128,10 +129,11 @@ export default function Home() {
                 <a href="mailto:okokohhezron254@gmail.com">
                 <button
                   type="button"
-                  className="flex items-center justify-center bg-gradient-to-r from-blue-500  text-900 via-blue-600 to-blue-700 text-white border-none rounded-md hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-6 py-2.5 w-40 md:w-auto"
+                  className="flex items-center justify-center bg-gradient-to-r from-blue-500 text-900 via-blue-600 to-blue-700 text-white border-none rounded-md hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-6 py-2.5 w-40 md:w-auto animate-pulse"
                 >
                   Contact
                 </button>
+
                 </a>
               </div>
             </div>
