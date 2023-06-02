@@ -46,7 +46,7 @@ export default function Home() {
        <div className="container mx-auto">
     <div className="w-full ">
         <section className="min-h-screen w-full">
-          <nav className="py-2 mt-0 mb-6 flex justify-between dark:text-white fixed top-0 left-0  bg-gray-900 w-full">
+          <nav className="py-2 mt-0 mb-6 flex justify-between text-white dark:text-white fixed top-0 left-0  bg-gray-900 w-full">
           
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 ml-10 sm:ml-6 sm:mb-0">
