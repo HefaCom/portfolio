@@ -53,7 +53,7 @@ export default function Home() {
             <a href="#" className="flex items-center mb-4 ml-10 sm:ml-6 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white  mt-4 drop-shadow-xl">TheNerd</span>
-<BsFillXDiamondFill/>
+<BsFillXDiamondFill className="text-red animate-pulse ml-1"/>
             </a>
             <ul className="flex items-center">
               <li>
