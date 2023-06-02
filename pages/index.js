@@ -31,6 +31,9 @@ export default function Home() {
       clearInterval(interval);
     };
   }, []);
+  
+  
+  
   const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark" : "light"}>
@@ -43,7 +46,7 @@ export default function Home() {
        <div className="container mx-auto">
     <div className="w-full ">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
+          <nav className="py-10 mb-12 flex justify-between dark:text-white fixed top-0 left-0 w-full bg-gray-800 z-50">
           
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 sm:mb-0">
