@@ -397,7 +397,7 @@ export default function Home() {
        
         
 {/* My testinomials */}
-        <section className="my-6">
+        <section className="my-6 animate-pulse">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Testinomials</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
