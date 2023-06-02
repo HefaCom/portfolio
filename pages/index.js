@@ -49,20 +49,51 @@ export default function Home() {
        <div className="container mx-auto">
     <div className="w-full ">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white fixed top-0">
-            {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
-            <a href="#" className="flex items-center mb-4 sm:mb-0">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
-            </a>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
+          <nav class="bg-gray-100 fixed inset-x-0">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-4">
+                <!-- logo -->
+                 <div> <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"> <i class='bx bxl-medium-old mr-1 text-xl mb-1 text-blue-400'></i> 
+        <span class="font-bold">TheNerd</span> </a> </div> <!-- primary nav -->
+                <!-- secondary nav -->
+            <div class="hidden md:flex items-center space-x-1"> <a href="" class="py-5 px-3"><BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
                 />
+                    <div class="md:hidden flex items-center"> <button class="mobile-menu-button focus:outline-none"> <i class='bx bx-menu text-3xl mt-1'></i> </button> </div>
+        </div>
+      </div> <!-- mobile menu -->
+         <div class="mobile-menu hidden md:hidden"> <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a> <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a> <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Pricing</a> 
+    <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Features</a> </div>
+       </nav>
+
+
+
+
+
+
+          
+          
+          
+          
+          
+          
+          
+       //   <nav className="py-10 mb-12 flex justify-between dark:text-white fixed top-0">
+            {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
+        //    <a href="#" className="flex items-center mb-4 sm:mb-0">
+                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
+       //         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
+            </a>
+        //    <ul className="flex items-center">
+     //         <li>
+          //      <BsFillMoonStarsFill
+        //          onClick={() => setDarkMode(!darkMode)}
+          //        className=" cursor-pointer text-2xl"
+                />
               </li>
-              <li>
+         //     <li>
                 
                 
               </li>
