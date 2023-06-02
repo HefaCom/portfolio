@@ -23,34 +23,7 @@ import me from "../public/avatar.png";
 const currYear = new Date().getFullYear();
 export default function Home() {
   
-  function Navbar() {
-  const [darkMode, setDarkMode] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset;
-      setIsScrolled(scrollTop > 0);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const texts = ['Application Developer', 'Data Analyst','Statistician', 'Web Developer','Database Designer','Tech Consultant','Technical Writer']; // Array of texts to swap
-
-    useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % 5);
-    }, 3000); // Swap every 3 seconds
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
 
   const [darkMode, setDarkMode] = useState(true);
 
