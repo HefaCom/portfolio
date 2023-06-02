@@ -5,7 +5,8 @@ import {
   AiFillYoutube,
   AiFillGithub
 } from "react-icons/ai";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import { BsFillMoonStarsFill , BsFillXDiamondFill} from "react-icons/bs";
+
 import { useState,useEffect } from "react";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
@@ -51,7 +52,8 @@ export default function Home() {
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 ml-10 sm:ml-6 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce mt-4 drop-shadow-xl">TheNerd</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white  mt-4 drop-shadow-xl">TheNerd</span>
+<BsFillXDiamondFill/>
             </a>
             <ul className="flex items-center">
               <li>
