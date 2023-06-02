@@ -49,7 +49,7 @@ export default function Home() {
           <nav className="py-2 mt-0 mb-6 flex justify-between dark:text-white fixed top-0 left-0  bg-gray-900 w-full">
           
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
-            <a href="#" className="flex items-center mb-4 ml-5 sm:mb-0">
+            <a href="#" className="flex items-center mb-4 ml-10 sm:ml-6 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
             </a>
@@ -57,7 +57,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl mr-4"
+                  className=" cursor-pointer text-2xl mr-10 sm:mr:6"
                 />
               </li>
             
