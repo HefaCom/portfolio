@@ -66,7 +66,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-10 pt-30">
             <h2 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
             Hezron Okoko
             </h2>
