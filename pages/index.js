@@ -95,7 +95,7 @@ export default function Home() {
                   <AiFillGithub />
                 </a>
                 <a
-                  href="https://www.linkedin.com/hezron-okoko"
+                  href="https://www.linkedin.com/in/hezron-okoko/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-blue-600 dark:hover:text-blue-400 animate-fade-in hover:-translate-y-1"
