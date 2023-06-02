@@ -141,7 +141,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <Image src={deved} layout="fill" objectFit="cover" alt="TheNerd" />
                 <div className="absolute px-4 text-lg text-white bottom-6">
-                  <p className="animate-spine">TheNerd!</p>
+                  <p className="animate-ping rounded-full bg-sky-400 opacity-75">TheNerd!</p>
                 </div>
               </div>
             </div>
