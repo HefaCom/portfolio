@@ -51,7 +51,7 @@ export default function Home() {
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 ml-10 sm:ml-6 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce mt-2">TheNerd</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce mt-2 drop-shadow-xl">TheNerd</span>
             </a>
             <ul className="flex items-center">
               <li>
