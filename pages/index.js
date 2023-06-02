@@ -44,7 +44,7 @@ export default function Home() {
           
           
           
-          <nav className="py-10 mb-12 flex justify-between fixed inset-x-0 dark:text-white  ">
+          <nav className="py-10 mb-12 flex justify-between  dark:text-white  ">
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
