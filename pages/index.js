@@ -22,6 +22,23 @@ import web6 from "../public/web6.png";
 import me from "../public/avatar.png";
 const currYear = new Date().getFullYear();
 export default function Home() {
+  
+  function Navbar() {
+  const [darkMode, setDarkMode] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      setIsScrolled(scrollTop > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
   const [currentIndex, setCurrentIndex] = useState(0);
   const texts = ['Application Developer', 'Data Analyst','Statistician', 'Web Developer','Database Designer','Tech Consultant','Technical Writer']; // Array of texts to swap
 
@@ -51,31 +68,50 @@ export default function Home() {
         <section className="min-h-screen">
          
           
+          <nav
+      className={`py-10 mb-12 flex justify-between dark:text-white ${
+        isScrolled ? "fixed top-0 left-0 w-full bg-gray-800 z-50" : ""
+      }`}
+    >
+      <a href="#" className="flex items-center mb-4 sm:mb-0">
+        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">
+          TheNerd
+        </span>
+      </a>
+      <ul className="flex items-center">
+        <li>
+          <BsFillMoonStarsFill
+            onClick={() => setDarkMode(!darkMode)}
+            className="cursor-pointer text-2xl"
+          />
+        </li>
+        <li></li>
+      </ul>
+    </nav>
           
           
           
           
           
-          
-          <nav className="py-10 mb-12 flex justify-between dark:text-white  ">
-            {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
-            <a href="#" className="flex items-center mb-4 sm:mb-0">
-                {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
-               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
-            </a>
-            <ul className="flex items-center">
-             <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                className=" cursor-pointer text-2xl"
-                />
-              </li>
-              <li>
+//           <nav className="py-10 mb-12 flex justify-between dark:text-white  ">
+//             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
+//             <a href="#" className="flex items-center mb-4 sm:mb-0">
+//                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
+//                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white animate-bounce">TheNerd</span>
+//             </a>
+//             <ul className="flex items-center">
+//              <li>
+//                 <BsFillMoonStarsFill
+//                   onClick={() => setDarkMode(!darkMode)}
+//                 className=" cursor-pointer text-2xl"
+//                 />
+//               </li>
+//               <li>
                 
                 
-              </li>
-            </ul>
-          </nav>
+//               </li>
+//             </ul>
+//           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
             Hezron Okoko
