@@ -41,7 +41,7 @@ export default function Home() {
       <Head>
         <title>Portfolio | Hezron Okoko</title>
         <meta name="description" content="A freelance tech Developer." />
-        <link rel="icon" href="/avatar.png" />
+        <link rel="icon" href={deved} />
       </Head>
     <main className="bg-white px-2 sm:px-2 md:px-8 lg:px-40 dark:bg-gray-900">
        <div className="container mx-auto">
