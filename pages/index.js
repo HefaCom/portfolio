@@ -64,7 +64,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 pt-30">
-            <h2 className="text-6xl py-2 mt-5 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-6xl py-2 mt-8 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
             Hezron Okoko
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
