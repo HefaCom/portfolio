@@ -39,8 +39,7 @@ export default function Home() {
        <div className="container mx-auto">
     <div className="w-full ">
         <section className="min-h-screen">
-           
-          <nav className="py-10 mb-12 flex justify-between  dark:text-white  ">
+            <nav className="py-10 mb-12 flex justify-between dark:text-white  ">
             {/* <h1 className="font-burtons text-xl">< a href="#">TheNerd</a></h1> */}
             <a href="#" className="flex items-center mb-4 sm:mb-0">
                 {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="TheNerd Logo" /> */}
@@ -59,6 +58,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+           
           <div className="text-center p-10 py-10">
             <h2 className="text-6xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
             Hezron Okoko
