@@ -75,7 +75,8 @@ export default function Home() {
                
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
-              Freelancer providing  web development, desktop application and outstanding Data analysis & visualization services. Hire me today and let's get it cracking! 
+              //Freelancer providing  web development, desktop application and outstanding Data analysis & visualization services. Hire me today and let's get it cracking! 
+              Highly motivated and detail-oriented data scientist with a strong background in applied statistics, data analytics, and programming. Seeking a semi-skilled data scientist role to apply my skills and knowledge in statistical analysis, data visualization, and machine learning to drive data-driven decision-making and contribute to business growth.
             </p>
             <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
                 <a
