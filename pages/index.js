@@ -76,8 +76,8 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl ">
               
-              Highly motivated and detail-oriented data scientist with a strong background in applied statistics, data analytics, and programming.
-              Having vast skills and knowledge in statistical analysis, data visualization, and machine learning.<br></br>
+              A highly motivated and detail-oriented data scientist with a strong background in applied statistics, data analytics, and programming.
+              I have vast skills and knowledge in statistical analysis, data visualization, and machine learning.<br></br>
                 Hire me today and let's get it cracking! 
             </p>
             <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
