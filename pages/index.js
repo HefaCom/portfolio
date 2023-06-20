@@ -40,6 +40,8 @@ export default function Home() {
     <div className={darkMode ? "dark" : "light"}>
       <Head>
         <title>Portfolio | Hezron Okoko</title>
+  <meta name="description" content="Highly motivated and detail-oriented data scientist with a strong background in applied statistics, data analytics, and programming. Skills include statistical analysis, data visualization, and machine learning. Offering freelance services and assignment help. Contact Hezron Okoko today.">
+<meta name="keywords" content="data scientist, applied statistics, data analytics, programming, statistical analysis, data visualization, machine learning, motivated data scientist, detail-oriented data scientist, statistical modeling, predictive modeling, data-driven insights, statistical techniques, data mining, data interpretation, big data analysis, Python programming, R programming, data manipulation, data preprocessing, feature engineering, pattern recognition, artificial intelligence, deep learning, natural language processing, predictive analytics, data-driven decision making, problem-solving, data exploration, data-driven solutions, freelance, assignment help, Hezron Okoko">
         <meta name="description" content="A freelance tech Developer." />
         <link rel="icon" href="/dev-ed-wave.png" />
       </Head>
